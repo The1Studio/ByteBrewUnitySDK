@@ -37,10 +37,6 @@ public static class ByteBrewOnLoadPackageImportCredsHolder {
 
     public static void SetSDKKeysToPlayerPrefs() {
         if (BBSettings == null) {
-            BBSettings = ByteBrewSettingsHandler.SettingsInstance;
-        }
-
-        if (BBSettings == null) {
             return;
         }
 
